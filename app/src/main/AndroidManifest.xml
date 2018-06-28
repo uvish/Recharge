@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uvish.recharge.ETop">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icn"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icn"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.uvish.recharge.ETop.MainActivity" />
+        <activity android:name="com.uvish.recharge.ETop.Selection">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.uvish.recharge.ETop.dth" />
+        <activity android:name="com.uvish.recharge.ETop.cc" />
+        <activity android:name="com.uvish.recharge.ETop.Custom"></activity>
+    </application>
+
+</manifest>

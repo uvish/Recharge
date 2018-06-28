@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uvish.recharge.ETop.Custom"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="150sp"
+        android:layout_height="70sp"
+        android:hint="CODE"
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="150sp"
+        android:layout_height="70sp"
+        android:hint="Number"
+        android:inputType="number"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/amt"
+        android:layout_width="150sp"
+        android:layout_height="70sp"
+        android:hint="Amount"
+        android:inputType="number"
+        android:textAlignment="center"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawingCacheQuality="high"
+        android:baselineAlignBottom="true"
+        android:hapticFeedbackEnabled="true"
+        android:src="@drawable/ic_send_black_24dp"
+
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="sendCustom"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+

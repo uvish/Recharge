@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawingCacheQuality="high"
+            android:baselineAlignBottom="true"
+            android:hapticFeedbackEnabled="true"
+            android:src="@drawable/ic_sms_black_24dp"
+
+            android:layout_marginRight="26dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginBottom="34dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="custom"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        >
+        <android.support.design.widget.FloatingActionButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26sp"
+            android:layout_marginStart="26sp"
+            android:layout_marginEnd="26dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="34sp"
+            android:drawingCacheQuality="high"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="care"
+            android:src="@drawable/ic_contact_phone_black_24dp"
+            android:layout_marginRight="26dp" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <android.support.design.widget.FloatingActionButton
+            android:drawingCacheQuality="high"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:onClick="mobile"
+            android:src="@drawable/ic_phone_android_black_24dp"
+
+            />
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:drawingCacheQuality="high"
+            android:onClick="dth"
+            android:layout_marginTop="50sp"
+            android:src="@drawable/ic_live_tv_black_24dp"
+            />
+
+    </LinearLayout>
+
+    </RelativeLayout>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="com.mplus.uvish.recharge.Selection"-->
+    <!--&gt;-->
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true">-->
+        <!--<android.support.design.widget.FloatingActionButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:drawingCacheQuality="high"-->
+            <!--android:baselineAlignBottom="true"-->
+            <!--android:hapticFeedbackEnabled="true"-->
+            <!--android:src="@drawable/ic_sms_black_24dp"-->
+
+            <!--android:layout_marginRight="26dp"-->
+            <!--android:layout_marginEnd="26dp"-->
+            <!--android:layout_marginBottom="34dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:onClick="custom"/>-->
+    <!--</RelativeLayout>-->
+   <!---->
+    <!--<LinearLayout-->
+        <!--android:layout_width="300sp"-->
+        <!--android:layout_height="300sp"-->
+        <!--android:weightSum="1.5"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:orientation="vertical"-->
+        <!--android:id="@+id/linearLayout"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_centerHorizontal="true">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="0.5"-->
+            <!--android:onClick="mobile"-->
+            <!--android:text="Mobile"-->
+            <!--android:textSize="30sp"/>-->
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="0.5"-->
+            <!--android:textSize="30sp"-->
+            <!--android:text="DTH"-->
+            <!--android:onClick="dth"/>-->
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="0.5"-->
+            <!--android:textSize="30sp"-->
+            <!--android:text="Customer Care"-->
+            <!--android:onClick="care"/>-->
+    <!--</LinearLayout>-->
+    <!---->
+
+<!--</RelativeLayout>-->

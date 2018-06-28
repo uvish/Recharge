@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Saral ETop</string>
+    <array name="Telecom">
+        <item>Airtel</item>
+        <item>Aircel</item>
+        <item>Vodafone</item>
+        <item>Idea</item>
+        <item>Jio</item>
+        <item>Docomo Normal</item>
+        <item>Docomo Special</item>
+        <item>Telenor Normal</item>
+        <item>Telenor Special</item>
+        <item>BSNL Special</item>
+        <item>BSNL Top Up</item>
+        <item>Reliance GSM</item>
+
+    </array>
+    <array name="dth">
+        <item>Tata Sky</item>
+        <item>Airtel</item>
+        <item>Videocon</item>
+        <item>Dish Tv</item>
+        <item>Big Tv</item>
+        <item>Sun Tv</item>
+
+    </array>
+</resources>
